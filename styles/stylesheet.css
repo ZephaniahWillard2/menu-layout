@@ -7,17 +7,21 @@ h1{
     margin-bottom: 0%;
 }
 body{
-    background-color: rgb(220, 194, 244);
+    background-color: rgb(238, 227, 248);
 }
 nav ul {
     text-align: center;
     display: inline;
+    margin-top: 0%;
+    padding-top: 0%;
+    
 }
 nav ul li a{
     color: black;
 }
 #hero{
     text-align: center;
+    margin-top: 50px;
 }
 
 h3{
@@ -37,3 +41,17 @@ h3{
 #Drinks{
     text-align: center;
 }
+.container {
+    position: relative;
+    text-align: center;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #Baklava{
+    box-shadow: 5px 10px gray;
+  }
+  
