@@ -51,7 +51,24 @@ h3{
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  #Baklava{
-    box-shadow: 5px 10px gray;
+  .product img{
+    width: 140px;
+    height: 180px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: yellow;
   }
-  
+  .product2 img{
+    width: 140px;
+    height: 180px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: yellow;
+  }
+  .product3 img{
+    width: 190px;
+    height: 180px;
+    object-fit: none;
+    object-position: 5px 10%;
+    border: solid black;
+  }
