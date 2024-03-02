@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Froso's</title>
     <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
@@ -10,10 +12,10 @@
             <div class="container">
                 <img src="imgs/Sunset.jpg"  alt="Sunset" style="width:100%;">
                 <div class="centered">Froso's</div>
-              </div>
+            </div>
         </h1>
         <nav>
-            <ul> 
+            <ul id="buttons"> 
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Order Online</a></li>
                 <li><a href="#">About Us</a></li>
@@ -25,51 +27,59 @@
         <section id="hero">
             <h2>καλώς ήρθες στο Froso's!</h2>
             <p>Welcome to Froso's!</p>
+            <P>An authentic Greek Restaurant to fufill most of your hearts desires.</P>
+            <p>πάμε!</p>
         </section>
 
         
         <section id="Apps">
             <h3>Appetizers</h3>
-            <div>
-                <h4>Saganaki</h4>
-                <p>Flamming Graviera cheese drenched in fresh lemon juice and Bourbon.</p>
+            <div class="grid-container">
+                <div class="product">
+                    <h4>Saganaki</h4>
+                    <img src="imgs/Saganaki.jpg"  alt="Flaming Cheese">
+                    <p>Flaming Graviera cheese drenched in fresh lemon juice and Bourbon.</p>
+                </div>
+                <div class="product1">
+                    <h4>Cheese and Olive plate</h4>
+                    <img src="imgs/Cheese.jpg"  alt="Cheese plate">
+                    <p>Imported Kalamta Olives with Feta, Bijou aged Goat Cheese, Kerrygold aged Cheddar, and Parmigiano Reggiano.</p>
+                </div> 
             </div>
-            <div class="product">
-                <h4>Cheese and Olive plate</h4>
-                <img src="imgs/Cheese.jpg"  alt="Cheese plate">
-                <p>Imported Kalamta Olives with Feta, Bijou aged Goat Cheese, Kerrygold aged Cheddar, and Parmigiano Reggiano.</p>
-            </div> 
-
         </section>
 
         <section id="Entree">
             <h3>Entrees</h3>
-            <div>
-                <h4>Lamb Gyro</h4>
-                <p>The signiture dish of Greece, our Lamb Gyro's are made with spit-roasted Lamb leg,
+            <div class="grid-container1">
+                <div>
+                    <h4>Lamb Gyro</h4>
+                    <p>The signiture dish of Greece, our Lamb Gyro's are made with spit-roasted Lamb leg,
                     fresh tomatoes, lettuce, onions, topped with our famous Tzatziki.
-                </p>
-            </div>
-            <div>
-                <h4>Pastitsio</h4>
-                <p>This baked pasta dish is made from ground Lamb, tomatoes, bucatini, and a Greek bechamel
-                    cheese sauce.
-                </p>
+                    </p>
+                </div>
+                <div>
+                    <h4>Pastitsio</h4>
+                    <p>This baked pasta dish is made from ground Lamb, tomatoes, bucatini, and a Greek bechamel
+                        cheese sauce.
+                    </p>
+                </div>
             </div>
         </section>
 
         <section id="Dessert">
             <h3>Dessert</h3>
-            <div class="product2">
-                <h4>Baklava</h4>
-                <img src="imgs/Baklava.jpg"  alt="Baklava">
-                <p>A sweet and flakey dessert, our Baklava is made with layered pecans and Phyllo
-                    covered in butter, drenched in a lemon, orange, cinnamon and honey syrup. </p>
-            </div>
-            <div>
-                <h4>Galaktoboureko</h4>
-                <p>Our signiture dessert, Galaktoboureko is a smooth, creamy custard baked in phyllo and covered in a light, sweet syrup.</p>
-            </div>
+            <div class="grid-container2">
+                <div class="product2">
+                    <h4>Baklava</h4>
+                    <img src="imgs/Baklava.jpg"  alt="Baklava">
+                    <p>A sweet and flakey dessert, our Baklava is made with layered pecans and Phyllo
+                        covered in butter, drenched in a lemon, orange, cinnamon and honey syrup. </p>
+                </div>
+                <div>
+                    <h4>Galaktoboureko</h4>
+                    <p>Our signiture dessert, Galaktoboureko is a smooth, creamy custard baked in phyllo and covered in a light, sweet syrup.</p>
+                </div>
+            </div>    
         </section>
 
         <section id="Drinks">
@@ -102,8 +112,8 @@
 
 
 
-    <!-- <footer>
-        <p>Copyright Office Supply Store 2024</p>
-    </footer>  -->
+    <footer class="foot">
+        <p>Copyright Froso's and Sons 2024</p>
+    </footer> 
 </body>
 </html>

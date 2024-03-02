@@ -5,70 +5,171 @@ h1{
     font-size: 70px;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    text-shadow: 3px 3px 1px gray;
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 227, 248);
 }
+
 body{
     background-color: rgb(238, 227, 248);
 }
-nav ul {
+
+/*!!CODE!! nav ul {
     text-align: center;
-    display: inline;
+    list-style: none;
     margin-top: 0%;
     padding-top: 0%;
     
+    
+} */
+
+
+#buttons li {
+    list-style: none;
+    text-align: center;
+    
+    
 }
+
+#buttons li:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
 nav ul li a{
     color: black;
+    text-align: center;
 }
+
+
 #hero{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: rgb(249, 184, 184);
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 227, 248);
 }
+/* ^^^^^All above is head, hero, and general */
 
 h3{
-    padding-top:30px;
+    padding-top:70px;
+    padding-bottom: 70px;
+    margin-top: 0px;
     font-size: 25px;
     font-family: cursive;
+    background-color: rgb(191, 237, 237);
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 227, 248);
+    /* I might change the above line since i might change the background colors of the h3's */
 }
+
+
 #Apps{
     text-align: center;
 }
+/*!!CODE!! #Apps h3{
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 227, 248);
+} */
 #Entree{
     text-align: center;
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 227, 248);
 }
 #Dessert{
     text-align: center;
+    box-shadow: inset 0px 0px 10px 10px rgb(238, 227, 248);
 }
 #Drinks{
     text-align: center;
 }
+/* ^^^^^Menu section styling */
+
+/* trying to blur the borders bewteen sections, !!!!!!!!COME BACK TO THIS!!!!!!! */
 .container {
     position: relative;
     text-align: center;
+    box-shadow: inset 10px 10px 40px 40px rgb(228, 195, 238);
   }
+/*!!CODE!! .container img{
+    box-shadow: 3px 3px 3px 5px rgb(225, 155, 243);
+  } */
+
+  .grid-container{
+    display: grid;
+    grid: 150px / auto auto;
+    padding-left: 130px;
+    padding-right: 0px;
+    padding-bottom: 250px;
+    text-align: center;
+  }
+
+  .grid-container img{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .grid-container1{
+    display: grid;
+    grid: 150px / auto auto;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .grid-container2{
+    display: grid;
+    grid: 150px / auto auto;
+    padding-bottom: 250px;
+    text-align: center;
+  }
+
+
+  /* ???? */
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+  h4{
+    text-decoration: underline;
+  }
+
+  /* Styling the imgs */
   .product img{
     width: 140px;
     height: 180px;
     object-fit: none;
-    object-position: 5px 10%;
-    border: yellow;
+    border: 1px solid yellow;
+  }
+  .product1 img{
+    width: 140px;
+    height: 180px;
+    object-fit: none;
+    border: 1px solid yellow;
   }
   .product2 img{
     width: 140px;
     height: 180px;
     object-fit: none;
-    object-position: 5px 10%;
-    border: yellow;
+    border: 1px solid yellow;
   }
   .product3 img{
     width: 190px;
     height: 180px;
     object-fit: none;
-    object-position: 5px 10%;
-    border: solid black;
+    border: 1px solid rgb(176, 8, 8);
+  }
+
+
+
+
+  /* footer */
+  .foot{
+    padding-top: 160px;
+    text-align: center;
+    text-shadow: 2px 2px 1px #88dfcc;
+      
   }
